@@ -4,7 +4,7 @@ import { BsArrowLeft } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import video from "../assets/video.mp4";
 export default function Player() {
-  const navigate = useNavigate();
+const navigate = useNavigate();
 
   return (
     <Container>
